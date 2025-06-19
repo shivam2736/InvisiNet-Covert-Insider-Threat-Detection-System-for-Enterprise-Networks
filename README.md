@@ -1,10 +1,5 @@
 # InvisiNet-Covert-Insider-Threat-Detection-System-for-Enterprise-Networks
 InvisiNet is a covert insider threat detection system for enterprise networks. It uses Zeek, Suricata, and data diodes to provide stealthy, tamper-proof monitoring. Tested on advanced persistent threat simulations, it achieved 100% detection accuracy, showcasing robust and reliable cybersecurity defense.
-# InvisiNet: Covert Insider Threat Detection System for Enterprise Networks
-
-## Executive Summary
-
-InvisiNet is an advanced, covert insider threat detection system designed for enterprise networks that achieves 100% detection accuracy on Advanced Persistent Threat (APT) simulations while maintaining complete operational stealth. The system combines cutting-edge intrusion detection capabilities with innovative data diode technology to monitor network traffic without any detectable footprint.
 
 ## System Architecture
 
