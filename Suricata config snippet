@@ -1,0 +1,18 @@
+# suricata.yaml (partial)
+af-packet:
+  - interface: eth0
+    threads: 4
+    cluster-id: 99
+    cluster-type: cluster_flow
+    defrag: yes
+
+outputs:
+  - eve-log:
+      enabled: yes
+      filetype: regular
+      filename: /var/log/suricata/eve.json
+      types:
+        - alert
+        - dns
+        - http
+        - tls
